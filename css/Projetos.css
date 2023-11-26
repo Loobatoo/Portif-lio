@@ -1,0 +1,151 @@
+/* Projeto */
+
+.row-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.ImagemFundo{
+    background-image: url('img/img04.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
+}
+
+.Projetos {
+    width: 100%;
+    height: 34rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr; 
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+}
+
+.Titulo-Projetos{
+    height: 15vh;
+    color: var(--Text-color);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.Card img{
+    max-width: 500px;
+    max-height: 150px;
+    border-left: 2px solid var(--Span-color);
+    transition: .5s;
+}
+
+.Card img:hover{
+    transform: translateY(-5px);
+}
+
+.Card h2{
+    margin-top: 1.5rem;
+    color: var(--Text-color);
+    font-size: 30px;
+}
+
+.Descrição{
+    color: var(--Text-color);
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+}
+
+.Technos{
+    margin-top: 1rem;
+    color: var(--Span-color);
+    font-size: 15px;
+}
+
+.Card button{
+    margin-top: 1.5rem;
+    width: 100px;
+    height: 2rem;
+    border: .5px solid var(--Span-color);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--Text-color);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Card button:hover{
+    background-color: var(--Span-color);
+    border: none;
+    color: var(--Second-Background-color);
+}
+
+@media (max-width: 375px) {
+
+    .Descrição{
+        display: none;
+    }
+    .Card{
+        margin-top: none;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1800px) {
+
+    .Projetos {
+        height: 75%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        grid-template-rows: 1fr; 
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 5rem;
+    }
+
+    .Card h2{
+        font-size: 20px;
+    }
+    
+    .Technos{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .Projetos {
+        height: 75%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+        grid-template-rows: 1fr; 
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        padding: 5rem;
+    }
+    .Card h2{
+        font-size: 15px;
+    } 
+    .Technos{
+        font-size: 10px;
+    }
+    
+}
+

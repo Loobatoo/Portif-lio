@@ -1,0 +1,121 @@
+/* Habilidades */
+
+.row-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--Text-color);
+}
+
+.Titulo-Habilidades{
+    padding-top: 2rem;
+    color: var(--Background-color);
+}
+
+.Card-habilidades{
+    display: flex;
+    width: 150px;
+    padding: 50px 0;
+    border-radius: 8px;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HTML .circular-progress{
+    background: conic-gradient(var(--Span-color) 324deg,var(--Background-color) 0deg);
+}
+
+#CSS .circular-progress{
+    background: conic-gradient(var(--Span-color) 324deg,var(--Background-color) 0deg);
+}
+
+#JavaScript .circular-progress{
+    background: conic-gradient(var(--Span-color) 324deg,var(--Background-color) 0deg);
+}
+
+#React .circular-progress{
+    background: conic-gradient(var(--Span-color) 180deg,var(--Background-color) 0deg);
+}
+
+#Bootstrap .circular-progress{
+    background: conic-gradient(var(--Span-color) 270deg,var(--Background-color) 0deg);
+}
+
+#Sass .circular-progress{
+    background: conic-gradient(var(--Span-color) 180deg,var(--Background-color) 0deg);
+}
+
+#Git .circular-progress{
+    background: conic-gradient(var(--Span-color) 180deg,var(--Background-color) 0deg);
+}
+
+#UX .circular-progress{
+    background: conic-gradient(var(--Span-color) 180deg,var(--Background-color) 0deg);
+}
+
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: var(--Text-color);
+}
+
+.progress-value{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--Background-color)
+}
+
+.Card-habilidades h1{
+    font-size: 15px;
+    color: var(--Background-color);
+}
+
+.Container-Habilidades{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    grid-template-rows: 1fr; 
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+
+@media (max-width: 1800px) {
+
+    .Container-Habilidades{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        grid-template-rows: 1fr; 
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 1260px) {
+
+    .Container-Habilidades{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        grid-template-rows: 1fr; 
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

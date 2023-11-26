@@ -1,0 +1,29 @@
+/* Scroll down */
+
+.Scroll-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: var(--Background-color);
+    height: 10vh;
+}
+
+.Scroll-down h1{
+    font-size: 1rem;
+}
+
+.Scroll-down i{
+    color: var(--Span-color);
+}
+
+.Scroll-down a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--Text-color);
+}
+
+.Scroll-none{
+    display: none;
+}
