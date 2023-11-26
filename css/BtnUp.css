@@ -1,0 +1,24 @@
+.Btn-Up{
+    right: 50px;
+    bottom: 50px;
+    display: block;
+    position: fixed;
+    z-index: 9;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Btn-Up:hover{
+    right: 50px;
+    bottom: 55px;
+}
+
+.Btn-Up-none{
+    display: none;
+}
+
+.Btn-Up a{
+    color: var(--Span-color);
+    text-decoration: none;
+    font-size: 25px;
+}
