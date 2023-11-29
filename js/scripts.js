@@ -80,4 +80,4 @@ function executaAcao() {
 
 setInterval(executaAcao, 4000);
 
-const Card = document.querySelector("");
+const Card = document.querySelector("#Card-1");

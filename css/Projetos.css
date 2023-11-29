@@ -26,18 +26,64 @@
     gap: 2rem;
 }
 
-.Card{
-    background-position: center;
-    background-size: cover; 
-
+.Card {
+    position: relative;
     width: 426px;
     height: 240px;
-
     cursor: pointer;
 }
 
-.Card h1{
-    display: none;
+.Card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.Card-Info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Text-color);
+    font-size: 18px; 
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+    padding: 2rem;
+}
+
+.Card-Info h1{
+    font-size: 20px;
+}
+
+.Card-Info h2{
+    font-size: 15px;
+}
+
+.Card-Info a{
+    font-size: 15px;
+    color: var(--Text-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Card-Info a:hover{
+    color: #9ec4bb;
+    transform: translateY(-2px);
+}
+
+.Card:hover .Card-Info {
+    opacity: 1; 
+    cursor: auto;
+}
+
+.Card:hover .Image{
+    opacity: 0.1;
 }
 
 @media (max-width: 2500px) {
