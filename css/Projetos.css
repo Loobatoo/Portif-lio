@@ -109,7 +109,21 @@
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
     .Card{ 
-        width: 213px;
+        width: 100%;
         height: 120px;
+    }
+    .Card-Info{
+        padding: 1rem;
+    }
+    .Card-Info h1{
+        font-size: 15px;
+    }
+    
+    .Card-Info h2{
+        font-size: 10px;
+    }
+    
+    .Card-Info a{
+        font-size: 10px;
     }
 }
