@@ -62,7 +62,7 @@ ScrollReveal().reveal('.row-4');
 const ImagemPedro = document.querySelector("#IMG01");
 
 function FecharOlhos() {
-  ImagemPedro.style.content = 'url("img/img06.png")';
+  ImagemPedro.style.content = 'url("img/img02.png")';
 
 }
 
@@ -80,3 +80,4 @@ function executaAcao() {
 
 setInterval(executaAcao, 4000);
 
+const Card = document.querySelector("");
