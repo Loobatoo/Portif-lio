@@ -8,7 +8,6 @@
     color: red;
     background-color: var(--Background-color);
     height: 10vh;
-    border-bottom: 1px solid var(--Text-color);
 }
 
 .Scroll-down h1{
