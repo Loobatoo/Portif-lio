@@ -31,3 +31,9 @@
         width: 60%;
     }
 }
+
+@media (max-width: 912px) {
+    .Header{
+        width: 60%;
+    }
+}
