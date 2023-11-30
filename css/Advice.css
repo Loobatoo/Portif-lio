@@ -16,11 +16,13 @@
 }
 
 .Message h1{
+    color: var(--Background-color);
     font-size: 50px;
     padding-bottom: 10px;
 }
 
 .Message h2{
+    color: var(--Background-color);
     font-size: 15px;
 }
 
@@ -37,7 +39,7 @@
 }
 
 .MeiosDeContato a{
-    color: black;
+    color: var(--Background-color);
     height: 60px;
 
     transition: .5s;
@@ -57,12 +59,16 @@
 }
 
 .Close i{
+    color: var(--Background-color);
     cursor: pointer;
 
+    z-index: 999;
     transition: .5s;
 }
 
 .Close i:hover{
+    color: red;
+
     transform: rotate(360deg);
 }
 

@@ -34,6 +34,8 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    color: var(--Background-color); 
 }
 
 .Line-2{
@@ -41,6 +43,8 @@
     flex-direction: row;
     gap: 1rem;
     justify-content: center;
+
+    color: var(--Background-color);
 }
 
 .Line-2 a{
@@ -59,16 +63,41 @@
     margin-bottom: 20px;
 }
 
-.Header-Titulo i{
+#Btn-Close-Header{
     cursor: pointer;
     transition: .5s;
 }
 
-.Header-Titulo i:hover{
+#Btn-Close-Header:hover{
     cursor: pointer;
-    color: black;
+    color: var(--Span-color);
     transform: rotate(180deg);
 }
+
+#Dark-Mode{
+    display: auto;
+    cursor: pointer;
+    transition: 1s ;
+}
+
+#Dark-Mode:hover{
+    color: var(--Span-color);
+
+    transform: rotate(360deg);
+}
+
+#Light-Mode{
+    display: none;
+    cursor: pointer;
+    transition: 1s ;
+}
+
+#Light-Mode:hover{
+    color: var(--Span-color);
+
+    transform: rotate(360deg);
+}
+
 
 .Header a{
     text-decoration: none;

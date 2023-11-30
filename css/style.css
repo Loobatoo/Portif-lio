@@ -7,10 +7,14 @@
 }
 
 :root{
-    --Background-color: #2d2e2c;
-    --Second-Background-color: #282828;
-    --Text-color: #f7dece;
-    --Span-color: #9ec4bb;
+  --Background-color: #2d2e2c;
+  --Text-color: #f7dece;
+  --Span-color: #9ec4bb;
+}
+.Light-Mode{
+  --Background-color: #f7dece;
+  --Text-color: #2d2e2c;
+  --Span-color: #9ec4bb;
 }
 
 body{

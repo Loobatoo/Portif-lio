@@ -123,3 +123,18 @@ Close.addEventListener("click", () => {
   Container.style.opacity = '1';
 })
 
+const DarkMode = document.querySelector("#Dark-Mode");
+const LightMode = document.querySelector("#Light-Mode");
+
+DarkMode.addEventListener("click", () => {
+  document.body.classList.toggle('Light-Mode');
+  DarkMode.style.display = 'none';
+  LightMode.style.display = 'flex';
+})
+
+LightMode.addEventListener("click", () => {
+  document.body.classList.toggle('Light-Mode');
+  LightMode.style.display = 'none';
+  DarkMode.style.display = 'flex';
+})
+
