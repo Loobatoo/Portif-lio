@@ -1,0 +1,72 @@
+.Message{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--Text-color);
+    width: 60%;
+    height: 60%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.Message h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.Message h2{
+    font-size: 15px;
+}
+
+.MeiosDeContato{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+
+    gap: 2rem;
+    font-size: 40px;
+}
+
+.MeiosDeContato a{
+    color: black;
+    height: 60px;
+
+    transition: .5s;
+}
+
+.MeiosDeContato a:hover{
+    color: var(--Span-color);
+    font-size: 50px;
+
+    transform: translateY(5px);
+}
+
+.Close{
+    position: absolute;
+    top: 50px;
+    right: 50px;   
+}
+
+.Close i{
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.Close i:hover{
+    transform: rotate(360deg);
+}
+
+
+.Container{
+    opacity: 1;
+}
+

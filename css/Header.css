@@ -95,9 +95,15 @@
 
 /* Iphone SE */
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .Header{
         width: 60%;
+    }
+    .Btn-Header{
+        left: 20px;
+        top: 50px;
+        display: block;
+        position: fixed;
     }
 }
 
