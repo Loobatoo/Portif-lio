@@ -91,3 +91,42 @@
 .Header span{
     color: var(--Span-color);
 }
+
+
+/* Iphone SE */
+
+@media (max-width: 375px) {
+    .Header{
+        width: 60%;
+    }
+}
+
+/* Iphone XR */
+
+@media (max-width: 414px) {
+    .Header{
+        width: 60%;
+    }
+}
+
+/* Iphone 12 Pro */
+
+@media (max-width: 390px) {
+    .Header{
+        width: 60%;
+    }
+}
+
+/* Galaxy Fold */
+
+@media (max-width: 280px) {
+    .Header{
+        width: 60%;
+    }
+}
+
+@media (max-width: 912px) {
+    .Header{
+        width: 60%;
+    }
+}

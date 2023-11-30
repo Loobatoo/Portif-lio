@@ -58,7 +58,7 @@
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 430px) {
     .row-1{
         flex-direction: column;
         align-items: center;
