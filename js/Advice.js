@@ -21,6 +21,6 @@ window.addEventListener('scroll', checkScroll);
 const Close = document.querySelector(".Close")
 
 Close.addEventListener("click", () => {
-  Agradecimento.style.left = '-500px';
+  Agradecimento.style.left = '-100%';
   Container.style.opacity = '1';
 })
