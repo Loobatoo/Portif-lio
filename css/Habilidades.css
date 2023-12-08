@@ -59,7 +59,7 @@
 }
 
 #Git .circular-progress{
-    background: conic-gradient(var(--Span-color) 180deg,var(--Background-color) 0deg);
+    background: conic-gradient(var(--Span-color) 324deg,var(--Background-color) 0deg);
 }
 
 #UX .circular-progress{
