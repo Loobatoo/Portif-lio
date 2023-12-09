@@ -176,5 +176,9 @@
         top: 30px;
         right: 30px;
     }
+    .Message{
+        width: 60%;
+        height: 40%;  
+    }
 }
 
