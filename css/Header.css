@@ -18,6 +18,7 @@
 .Header{
     position: fixed;
     display: flex;
+    justify-content: space-between;
     left: -600px;
     width: 20%;
     height: 100%;
